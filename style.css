@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+*{
+    margin:0;
+    padding:0;
+}
+
+:root{
+    --cor1:#207AAC;
+    --cor2:#8FD3F3;
+    --cor3:#CCDFA4;
+    --cor4:#005C0A;
+}
+
+header{
+
+    padding: 30px;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 3px rgb(21, 34, 150);
+
+}
+header h1{
+    padding-bottom: 10px;
+    font-variant: small-caps;
+
+}
+
+body{
+    
+    background-image: url(imagem/escenario-chihiro-48.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+main{
+   width: 500px;
+    background-color: rgba(255, 255, 255, 0.712);
+    margin: auto;
+    border-radius: 20px;
+
+}
+
+table{
+    padding-left: 20px;
+
+}
+thead{
+    font-size: 1.1em;
+    text-align: center;
+    
+
+
+}
+
+thead > tr > th{
+    position: sticky;
+    top:-1px;
+    background-color: rgb(255, 255, 255);
+   
+
+
+}
+.nome{
+    border-radius: 20px 0px 0px 20px
+}
+
+.check{
+    border-radius: 0px 20px 20px 0px
+}
+.ok{
+    text-align: center;
+}
+th{
+    padding: 10px;
+    
+}
+td{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    padding: 10px;
+    text-align: center;
+    font-style: italic;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+footer{
+    background-color: #3B5F6B;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
