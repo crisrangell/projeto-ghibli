@@ -28,18 +28,19 @@ header h1{
 }
 
 body{
-    
+    height: 100vh;
     background-image: url(imagem/escenario-chihiro-48.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 
 }
 main{
-    max-width: 400px;
+    max-width: 350px;
     background-color: rgba(255, 255, 255, 0.712);
     margin: auto;
-    border-radius: 20px;
+    border-radius:20px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.438);
 
 }
@@ -98,4 +99,6 @@ footer{
     text-align: center;
     color: white;
 }
+
+
 
